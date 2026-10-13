@@ -1,0 +1,72 @@
+# Composer project for Contract (Eastercon 2028): composer.json and .lock, the
+# DDEV setup, and project tooling. Everything specific to the site (settings,
+# config, site modules and themes) is in the site project, which is its own
+# repository. See AGENTS.md.
+
+# Installed by Composer.
+/vendor/
+/recipes/
+/drush/Commands/contrib/
+
+# The webroot. Nothing in it is edited by hand: core, contrib projects and
+# libraries are installed by Composer; the top-level files (index.php,
+# .htaccess, robots.txt, sites/*.example.php and so on) are written by
+# drupal/core-composer-scaffold on every install; and web/sites/default is a
+# symlink to the site project. To change a scaffolded file, add a
+# drupal-scaffold file-mapping to composer.json.
+/web/
+
+# Repositories of their own, beside this one:
+# - The site project (eastercon2028_drupal), plus the Key module files and
+#   secrets, which are kept outside both repositories.
+# - Checkouts of drupal.org projects maintained here. registration_theme is
+#   installed from its checkout through a Composer path repository, so it must
+#   be cloned into modules/ before running composer install.
+/eastercon2028.org/
+/modules/
+
+# Database dumps and backups, including the production copies in live/.
+/live/
+*.sql
+*.sql.gz
+*.mysql
+
+# Credentials.
+/auth.json
+.env
+.env.local
+/.ddev/claude-code/
+
+# Brand assets: source and print files (large SVGs, PDFs, XCFs), mostly not
+# web-ready, plus proprietary fonts that may not be redistributed. Web-ready
+# versions go in the contract theme in the site project.
+/assets/
+
+# Personal settings.
+/.claude/settings.local.json
+/.claude/statusline.sh
+/.idea/
+
+# Working notes for Registration Theme issues and merge requests (they belong
+# in its issue queue, not here).
+/follow-on.md
+/mr.md
+/summary.md
+
+# Tool caches.
+__pycache__/
+.phpunit.result.cache
+.phpunit.cache/
+node_modules/
+
+# Operating system files.
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
