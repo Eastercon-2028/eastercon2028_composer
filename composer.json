@@ -117,6 +117,7 @@
     "config": {
         "allow-plugins": {
             "composer/installers": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/ai_best_practices": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
@@ -124,9 +125,9 @@
             "drupal/core-vendor-hardening": true,
             "drupal/site_template_helper": true,
             "php-http/discovery": true,
-            "symfony/runtime": true,
             "phpstan/extension-installer": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true
+            "symfony/runtime": true,
+            "tbachert/spi": true
         },
         "bin-dir": "vendor/bin",
         "sort-packages": true,
