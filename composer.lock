@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9438f66d37399530fb925b3b500c52ac",
+    "content-hash": "5bcc869d14ddf01fc8514c01f6586388",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -6315,16 +6315,34 @@
         },
         {
             "name": "drupal/registration_theme",
-            "version": "1.0.x-dev",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/registration_theme.git",
+                "reference": "1.0.1"
+            },
             "dist": {
-                "type": "path",
-                "url": "modules/registration_theme",
-                "reference": "6447c54fb22abe75a15997ffc54799aa3bc2d76b"
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/registration_theme-1.0.1.zip",
+                "reference": "1.0.1",
+                "shasum": "6fffe59de4be257e88b059f6557daa2aec4dfd8d"
             },
             "require": {
+                "drupal/core": "^11",
                 "php": ">=8.3"
             },
             "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.1",
+                    "datestamp": "1790186201",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -6338,12 +6356,8 @@
             "description": "A theme designed for ConReg registration sites. Can be standalone or a base theme.",
             "homepage": "https://www.drupal.org/project/registration_theme",
             "support": {
-                "issues": "https://www.drupal.org/project/issues/registration_theme",
-                "source": "https://git.drupalcode.org/project/registration_theme"
-            },
-            "transport-options": {
-                "symlink": true,
-                "relative": true
+                "source": "https://git.drupalcode.org/project/registration_theme",
+                "issues": "https://www.drupal.org/project/issues/registration_theme"
             }
         },
         {
@@ -20228,7 +20242,6 @@
         "drupal/ai_best_practices": 20,
         "drupal/conreg": 15,
         "drupal/registration_canvas_theme": 10,
-        "drupal/registration_theme": 20,
         "drupal/verify_email": 15,
         "drupal/webform": 10
     },
