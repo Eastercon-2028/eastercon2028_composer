@@ -107,6 +107,7 @@
         "drupal/views_row_sdc": "^1.0",
         "drupal/webform": "^6.3.0-beta8",
         "drupal/yoast_seo": "^2.2.0",
+        "drush/drush": "^13.7",
         "league/commonmark": "^2.4"
     },
     "conflict": {
@@ -204,7 +205,6 @@
         "drupal-ai": "Drupal\\AiBestPractices\\Console\\AiBestPracticesApplication::runFromComposer"
     },
     "require-dev": {
-        "drupal/core-dev": "^11.4",
-        "drush/drush": "^13.7"
+        "drupal/core-dev": "^11.4"
     }
 }
