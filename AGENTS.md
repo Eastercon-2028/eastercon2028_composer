@@ -36,10 +36,11 @@ eastercon2028.org/
   eastercon2028_drupal/            site project (own git repo)
     site/                          reached as web/sites/default (a symlink); on live as sites/eastercon2028.org
       settings.php, services.yml   no secrets; settings.php includes the secrets file below
-      modules/                     site modules: heading_splitter (Contract's heading splits)
+      modules/                     site modules: heading_splitter (Contract's heading splits), contract_content (content export/import)
       themes/                      site theme: contract
       files/                       uploads and generated files (not in git)
     config/sync/                   configuration export, outside the webroot
+    recipes/contract_content/      site content as default content (pages, guests, Canvas pages, menus, redirects, their media)
   eastercon2028_keys/              Key module files (Stripe, SMTP); outside both repositories
   eastercon2028_secrets/           settings.secret.php: database connection, hash salt, secret overrides; outside both repositories, empty on DDEV
 ```
@@ -69,6 +70,7 @@ An agent running inside the DDEV web container cannot run `ddev`; use `vendor/bi
 - Apply database updates after code changes with `ddev drush update:db --yes`.
 - Import repository configuration into the site with `ddev drush config:import --yes`.
 - Export site configuration back to the repo with `ddev drush config:export --yes`.
+- Export content to the `contract_content` recipe with `ddev drush contract-content:export`, and import it (creating new items and overwriting existing ones by UUID) with `drush contract-content:import`. Core's `drush recipe` would skip existing content. Users, sent emails, newsletter issues and subscribers, and ConReg data are not exported: live is their source of truth.
 
 ## Guardrails
 
@@ -77,7 +79,7 @@ An agent running inside the DDEV web container cannot run `ddev`; use `vendor/bi
 - Do not edit Drupal core or contributed projects in place.
 - Put custom code in the site project: `eastercon2028.org/eastercon2028_drupal/site/modules` and `.../site/themes` (Drupal finds them as `sites/default/modules` and `sites/default/themes`). Do not create `web/modules/custom` or `web/themes/custom`.
 - Export configuration to `eastercon2028.org/eastercon2028_drupal/config/sync` (this is the configured sync directory). Keep secrets out of it: `friendlycaptcha.settings` holds an `api_key` in plain text, which should be overridden in the secrets file (`settings.secret.php`) instead of exported. The Key module entries only reference key files, so they are safe.
-- Do not deploy the Bitwise font (`site/themes/contract/fonts/bitwise/`) until its designer has given written permission; it is kept out of the site project's git repository until then.
+- The Bitwise font (`site/themes/contract/fonts/bitwise/`) is served with its designer's written permission; keep its `!license.txt` beside it.
 
 ## References
 
