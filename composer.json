@@ -35,7 +35,7 @@
         "drupal/captcha": "^2.0.10",
         "drupal/checklistapi": "^2.1.7",
         "drupal/coffee": "^2.0.1",
-        "drupal/conreg": "^1.0@alpha",
+        "drupal/conreg": "^1.0.0-beta7",
         "drupal/core": "^11.3.5",
         "drupal/core-composer-scaffold": "^11.3",
         "drupal/core-project-message": "^11.3",
