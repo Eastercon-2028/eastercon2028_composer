@@ -58,6 +58,7 @@
         "drupal/focal_point": "^2.1.2",
         "drupal/friendly_captcha_challenge": "^0.9",
         "drupal/friendlycaptcha": "^1.1.4",
+        "drupal/geofield": "^10.3",
         "drupal/gin": "^5.0.12",
         "drupal/gin_login": "^2.1.4",
         "drupal/gin_toolbar": "^3.0.3",
