@@ -1175,16 +1175,16 @@
         },
         {
             "name": "consolidation/robo",
-            "version": "5.2.3",
+            "version": "5.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/robo.git",
-                "reference": "78a541531cb613e9ce825b64ef3aa666d1e95598"
+                "reference": "2a2327b8dc6c893b76a6fc1cfe51cb785a38b7e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/robo/zipball/78a541531cb613e9ce825b64ef3aa666d1e95598",
-                "reference": "78a541531cb613e9ce825b64ef3aa666d1e95598",
+                "url": "https://api.github.com/repos/consolidation/robo/zipball/2a2327b8dc6c893b76a6fc1cfe51cb785a38b7e2",
+                "reference": "2a2327b8dc6c893b76a6fc1cfe51cb785a38b7e2",
                 "shasum": ""
             },
             "require": {
@@ -1207,11 +1207,11 @@
                 "codegyre/robo": "*"
             },
             "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.95.30",
                 "natxet/cssmin": "3.0.4",
                 "patchwork/jsqueeze": "^2",
                 "pear/archive_tar": "^1.4.4",
                 "phpunit/phpunit": "^7.5.20 || ^8 || ^9",
-                "squizlabs/php_codesniffer": "^3.6",
                 "yoast/phpunit-polyfills": "^0.2.0"
             },
             "suggest": {
@@ -1242,10 +1242,10 @@
             "description": "Modern task runner",
             "support": {
                 "issues": "https://github.com/consolidation/robo/issues",
-                "source": "https://github.com/consolidation/robo/tree/5.2.3"
+                "source": "https://github.com/consolidation/robo/tree/5.2.4"
             },
-            "time": "2026-11-12T17:53:46+00:00",
-            "published-time": "2026-11-12T17:54:12+00:00"
+            "time": "2026-11-20T19:31:06+00:00",
+            "published-time": "2026-11-20T19:31:33+00:00"
         },
         {
             "name": "consolidation/self-update",
@@ -1643,17 +1643,17 @@
         },
         {
             "name": "drupal/ai",
-            "version": "1.5.2",
+            "version": "1.5.3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/ai.git",
-                "reference": "1.5.2"
+                "reference": "1.5.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ai-1.5.2.zip",
-                "reference": "1.5.2",
-                "shasum": "b47b8a1bdc0ee719766cdd337cbfddd6eb0e8c70"
+                "url": "https://ftp.drupal.org/files/projects/ai-1.5.3.zip",
+                "reference": "1.5.3",
+                "shasum": "aa97498ca57273483491dc418de99037236ea8cf"
             },
             "require": {
                 "drupal/ai_content_suggestions": "^1.5",
@@ -1693,8 +1693,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.5.2",
-                    "datestamp": "1793214802",
+                    "version": "1.5.3",
+                    "datestamp": "1795101176",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -1800,7 +1800,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/ai"
             },
-            "published-time": "2026-10-28T11:05:40+00:00"
+            "published-time": "2026-11-19T15:12:35+00:00"
         },
         {
             "name": "drupal/ai_agents",
@@ -2192,17 +2192,17 @@
         },
         {
             "name": "drupal/ai_provider_amazeeio",
-            "version": "1.4.6",
+            "version": "1.4.7",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/ai_provider_amazeeio.git",
-                "reference": "1.4.6"
+                "reference": "1.4.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ai_provider_amazeeio-1.4.6.zip",
-                "reference": "1.4.6",
-                "shasum": "f561d00e65c6953390c0769295c57e5c675dc27d"
+                "url": "https://ftp.drupal.org/files/projects/ai_provider_amazeeio-1.4.7.zip",
+                "reference": "1.4.7",
+                "shasum": "5d8b4b50494e9042884eb50a4a382f8d19e9b4af"
             },
             "require": {
                 "drupal/ai": "^1.3",
@@ -2219,8 +2219,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.4.6",
-                    "datestamp": "1791460326",
+                    "version": "1.4.7",
+                    "datestamp": "1795186042",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2275,10 +2275,14 @@
             ],
             "description": "amazee.ai AI provider integration.",
             "homepage": "https://www.drupal.org/project/ai_provider_amazeeio",
+            "keywords": [
+                "Actively maintained",
+                "Artificial Intelligence (AI)"
+            ],
             "support": {
                 "source": "https://git.drupalcode.org/project/ai_provider_amazeeio"
             },
-            "published-time": "2026-10-08T11:50:45+00:00"
+            "published-time": "2026-11-20T14:46:00+00:00"
         },
         {
             "name": "drupal/ai_provider_anthropic",
@@ -2417,6 +2421,10 @@
             ],
             "description": "OpenAI provider implementation for the AI module for Drupal",
             "homepage": "https://www.drupal.org/project/ai_provider_openai",
+            "keywords": [
+                "Actively maintained",
+                "Integrations"
+            ],
             "support": {
                 "source": "https://git.drupalcode.org/project/ai_provider_openai"
             },
@@ -2515,17 +2523,17 @@
         },
         {
             "name": "drupal/ai_validations",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/ai_validations.git",
-                "reference": "1.4.0"
+                "reference": "1.4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ai_validations-1.4.0.zip",
-                "reference": "1.4.0",
-                "shasum": "e325bbcd5eb34c8a9f343707c6cefc62756b6c92"
+                "url": "https://ftp.drupal.org/files/projects/ai_validations-1.4.1.zip",
+                "reference": "1.4.1",
+                "shasum": "f30e830d7403cb11283b739728bbd66204fdb547"
             },
             "require": {
                 "drupal/ai": "^1.3",
@@ -2541,8 +2549,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.4.0",
-                    "datestamp": "1792067901",
+                    "version": "1.4.1",
+                    "datestamp": "1795082573",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2577,10 +2585,14 @@
             ],
             "description": "AI support for the Field Validation module",
             "homepage": "https://www.drupal.org/project/ai_validations",
+            "keywords": [
+                "Actively maintained",
+                "Artificial Intelligence (AI)"
+            ],
             "support": {
                 "source": "https://git.drupalcode.org/project/ai_validations"
             },
-            "published-time": "2026-10-15T12:31:17+00:00"
+            "published-time": "2026-11-19T09:46:04+00:00"
         },
         {
             "name": "drupal/automatic_updates",
@@ -2805,6 +2817,10 @@
             ],
             "description": "Replaces the Views default single- or multi-select boxes with more advanced options.",
             "homepage": "https://www.drupal.org/project/better_exposed_filters",
+            "keywords": [
+                "Actively maintained",
+                "Administration tools"
+            ],
             "support": {
                 "source": "https://git.drupalcode.org/project/better_exposed_filters",
                 "issues": "https://www.drupal.org/project/issues/better_exposed_filters"
@@ -2992,7 +3008,7 @@
             "extra": {
                 "drupal": {
                     "version": "1.13.0",
-                    "datestamp": "1795041066",
+                    "datestamp": "1795080949",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4130,6 +4146,10 @@
             ],
             "description": "Provides a number of utility and helper APIs for Drupal developers and site builders.",
             "homepage": "https://www.drupal.org/project/ctools",
+            "keywords": [
+                "Actively maintained",
+                "Administration tools"
+            ],
             "support": {
                 "source": "https://git.drupalcode.org/project/ctools",
                 "issues": "https://www.drupal.org/project/issues/ctools"
@@ -4288,17 +4308,17 @@
         },
         {
             "name": "drupal/drupal_cms_helper",
-            "version": "2.2.9",
+            "version": "2.2.10",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/drupal_cms_helper.git",
-                "reference": "2.2.9"
+                "reference": "2.2.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/drupal_cms_helper-2.2.9.zip",
-                "reference": "2.2.9",
-                "shasum": "d302757929d964d82d438cf203a396bd0bd0b3f4"
+                "url": "https://ftp.drupal.org/files/projects/drupal_cms_helper-2.2.10.zip",
+                "reference": "2.2.10",
+                "shasum": "b38e0f0f7900af45ac13d4b9a42c6146edae9882"
             },
             "require": {
                 "drupal/core": "^11.4.8"
@@ -4313,8 +4333,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.2.9",
-                    "datestamp": "1794417904",
+                    "version": "2.2.10",
+                    "datestamp": "1795129614",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4344,20 +4364,20 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/drupal_cms_helper"
             },
-            "published-time": "2026-11-11T17:24:43+00:00"
+            "published-time": "2026-11-19T23:06:34+00:00"
         },
         {
             "name": "drupal/drupal_cms_installer",
-            "version": "2.2.9",
+            "version": "2.2.10",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/drupal_cms_installer.git",
-                "reference": "1882da06aee1c68c754420f499fb016ac5800a60"
+                "reference": "39de9c57d6b723cf3e2dd2d7cd69bff24d0570e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://git.drupalcode.org/api/v4/projects/project%2Fdrupal_cms_installer/repository/archive.zip?sha=1882da06aee1c68c754420f499fb016ac5800a60",
-                "reference": "1882da06aee1c68c754420f499fb016ac5800a60",
+                "url": "https://git.drupalcode.org/api/v4/projects/project%2Fdrupal_cms_installer/repository/archive.zip?sha=39de9c57d6b723cf3e2dd2d7cd69bff24d0570e0",
+                "reference": "39de9c57d6b723cf3e2dd2d7cd69bff24d0570e0",
                 "shasum": ""
             },
             "require": {
@@ -4372,10 +4392,10 @@
             ],
             "description": "Provides install-time tweaks for Drupal CMS. Not to be used in production.",
             "support": {
-                "source": "https://git.drupalcode.org/project/drupal_cms_installer/-/tree/2.2.9"
+                "source": "https://git.drupalcode.org/project/drupal_cms_installer/-/tree/2.2.10"
             },
-            "time": "2026-11-11T12:01:35+00:00",
-            "published-time": "2026-11-11T17:25:49+00:00"
+            "time": "2026-11-19T17:32:11+00:00",
+            "published-time": "2026-11-19T23:07:41+00:00"
         },
         {
             "name": "drupal/drupical",
@@ -4605,26 +4625,26 @@
         },
         {
             "name": "drupal/easy_email_theme",
-            "version": "1.1.1",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/easy_email_theme.git",
-                "reference": "1.1.1"
+                "reference": "1.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/easy_email_theme-1.1.1.zip",
-                "reference": "1.1.1",
-                "shasum": "f90a3e4a06f00d80d12bc7c42a0aeadec97aeedb"
+                "url": "https://ftp.drupal.org/files/projects/easy_email_theme-1.2.0.zip",
+                "reference": "1.2.0",
+                "shasum": "de06ea8d466693119550814af05c9c107d9d11ae"
             },
             "require": {
-                "drupal/core": "^10.2 || ^11"
+                "drupal/core": "^10.2 || ^11 || ^12"
             },
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "1.1.1",
-                    "datestamp": "1794855439",
+                    "version": "1.2.0",
+                    "datestamp": "1795183493",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4649,7 +4669,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/easy_email_theme"
             },
-            "published-time": "2026-11-16T18:56:57+00:00"
+            "published-time": "2026-11-20T14:04:32+00:00"
         },
         {
             "name": "drupal/easy_encryption",
@@ -4789,17 +4809,17 @@
         },
         {
             "name": "drupal/editoria11y",
-            "version": "2.2.24",
+            "version": "2.2.25",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/editoria11y.git",
-                "reference": "2.2.24"
+                "reference": "2.2.25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/editoria11y-2.2.24.zip",
-                "reference": "2.2.24",
-                "shasum": "17510986c8b81cd8a9a306c6dba5db419878238b"
+                "url": "https://ftp.drupal.org/files/projects/editoria11y-2.2.25.zip",
+                "reference": "2.2.25",
+                "shasum": "6fdc308824c7900f7eaa0d13f18ce1a6da4503c5"
             },
             "require": {
                 "drupal/core": "^9 || ^10 || ^11"
@@ -4810,8 +4830,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.2.24",
-                    "datestamp": "1791401252",
+                    "version": "2.2.25",
+                    "datestamp": "1795382999",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4854,7 +4874,7 @@
                 "source": "https://git.drupalcode.org/project/editoria11y",
                 "issues": "https://drupal.org/project/issues/editoria11y"
             },
-            "published-time": "2026-10-07T19:27:11+00:00"
+            "published-time": "2026-11-22T21:29:38+00:00"
         },
         {
             "name": "drupal/field_group",
@@ -5545,20 +5565,20 @@
         },
         {
             "name": "drupal/haven_theme",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/haven_theme.git",
-                "reference": "1.0.1"
+                "reference": "1.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/haven_theme-1.0.1.zip",
-                "reference": "1.0.1",
-                "shasum": "f3f64ee60ddddfeafbe0d59ba84e9d9efc5a8fea"
+                "url": "https://ftp.drupal.org/files/projects/haven_theme-1.0.2.zip",
+                "reference": "1.0.2",
+                "shasum": "950c56ba3cb5d62c51f786322bfc96618d3765c0"
             },
             "require": {
-                "drupal/core": "^11.3",
+                "drupal/core": "^11.4",
                 "drupal/cva": "^1"
             },
             "conflict": {
@@ -5570,8 +5590,8 @@
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "1.0.1",
-                    "datestamp": "1780902491",
+                    "version": "1.0.2",
+                    "datestamp": "1795105751",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5618,10 +5638,13 @@
             ],
             "description": "A scalable, modern Drupal CMS prototype theme, integrating cutting-edge front-end tools and a flexible, component-based design system.",
             "homepage": "https://www.drupal.org/project/haven_theme",
+            "keywords": [
+                "Actively maintained"
+            ],
             "support": {
                 "source": "https://git.drupalcode.org/project/haven_theme"
             },
-            "published-time": "2026-06-08T07:07:50+00:00"
+            "published-time": "2026-11-19T16:28:51+00:00"
         },
         {
             "name": "drupal/honeypot",
@@ -5790,6 +5813,10 @@
             ],
             "description": "Provides jQuery UI library.",
             "homepage": "https://www.drupal.org/project/jquery_ui",
+            "keywords": [
+                "Developer tools",
+                "Minimally maintained"
+            ],
             "support": {
                 "source": "https://git.drupalcode.org/project/jquery_ui"
             },
@@ -5996,7 +6023,8 @@
             "description": "Implements the Klaro! consent manager utility into Drupal.",
             "homepage": "https://www.drupal.org/project/klaro",
             "keywords": [
-                "Drupal"
+                "Drupal",
+                "Integrations"
             ],
             "support": {
                 "source": "https://git.drupalcode.org/project/klaro",
@@ -6037,17 +6065,17 @@
         },
         {
             "name": "drupal/linkit",
-            "version": "7.0.18",
+            "version": "7.0.19",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/linkit.git",
-                "reference": "7.0.18"
+                "reference": "7.0.19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/linkit-7.0.18.zip",
-                "reference": "7.0.18",
-                "shasum": "f5bb814b0ed8390f64c603e99b01dd00c3837be2"
+                "url": "https://ftp.drupal.org/files/projects/linkit-7.0.19.zip",
+                "reference": "7.0.19",
+                "shasum": "9fe84b73562a8d25f2a2f70bd75cbf9c848c9e4f"
             },
             "require": {
                 "drupal/core": "^10.2 || ^11 || ^12"
@@ -6055,8 +6083,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "7.0.18",
-                    "datestamp": "1794259888",
+                    "version": "7.0.19",
+                    "datestamp": "1795209476",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6089,19 +6117,19 @@
                 {
                     "name": "mark_fullmer",
                     "homepage": "https://www.drupal.org/user/2612816"
-                },
-                {
-                    "name": "utexas",
-                    "homepage": "https://www.drupal.org/user/3716409"
                 }
             ],
             "description": "Linkit - Enriched linking experience",
             "homepage": "http://drupal.org/project/linkit",
+            "keywords": [
+                "Administration tools",
+                "Minimally maintained"
+            ],
             "support": {
                 "source": "http://cgit.drupalcode.org/linkit",
                 "issues": "http://drupal.org/project/linkit"
             },
-            "published-time": "2026-11-09T21:31:07+00:00"
+            "published-time": "2026-11-20T21:17:35+00:00"
         },
         {
             "name": "drupal/login_emailusername",
@@ -6637,24 +6665,23 @@
         },
         {
             "name": "drupal/navigation_extra_tools",
-            "version": "1.3.2",
+            "version": "1.3.3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/navigation_extra_tools.git",
-                "reference": "1.3.2"
+                "reference": "1.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/navigation_extra_tools-1.3.2.zip",
-                "reference": "1.3.2",
-                "shasum": "376e6638a064ba319b0af9672ae325e1c580180f"
+                "url": "https://ftp.drupal.org/files/projects/navigation_extra_tools-1.3.3.zip",
+                "reference": "1.3.3",
+                "shasum": "0fe2d50d22ae64289d9006f604450c8febc4b0b0"
             },
             "require": {
                 "drupal/core": "^10.3 || ^11 || ^12",
                 "php": ">=8.1"
             },
             "require-dev": {
-                "drupal/automatic_updates": "^3.1 || ^4.0@alpha",
                 "drupal/devel": "^5.1",
                 "drupal/project_browser": "^2.0-beta3 || ^2.1-beta3",
                 "drush/drush": ">=11.0"
@@ -6662,8 +6689,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.3.2",
-                    "datestamp": "1770243935",
+                    "version": "1.3.3",
+                    "datestamp": "1795345467",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6687,11 +6714,15 @@
             ],
             "description": "Provide useful tools to Drupal Navigation.",
             "homepage": "https://www.drupal.org/project/navigation_extra_tools",
+            "keywords": [
+                "Actively maintained",
+                "Administration tools"
+            ],
             "support": {
                 "source": "https://git.drupalcode.org/project/navigation_extra_tools",
                 "issues": "https://www.drupal.org/project/issues/navigation_extra_tools"
             },
-            "published-time": "2026-02-04T22:11:39+00:00"
+            "published-time": "2026-11-22T11:04:07+00:00"
         },
         {
             "name": "drupal/nouislider_js",
@@ -7044,6 +7075,10 @@
             ],
             "description": "Allows users to redirect from old URLs to new URLs.",
             "homepage": "https://www.drupal.org/project/redirect",
+            "keywords": [
+                "Administration tools",
+                "Seeking co-maintainer(s)"
+            ],
             "support": {
                 "source": "https://git.drupalcode.org/project/redirect"
             },
@@ -7278,6 +7313,10 @@
             ],
             "description": "Automatically publish and unpublish content at specified dates and times.",
             "homepage": "https://drupal.org/project/scheduler",
+            "keywords": [
+                "Actively maintained",
+                "Administration tools"
+            ],
             "support": {
                 "source": "https://git.drupalcode.org/project/scheduler",
                 "issues": "https://www.drupal.org/project/issues/scheduler"
@@ -7415,6 +7454,10 @@
             ],
             "description": "Provides a generic framework for modules offering search capabilities.",
             "homepage": "https://www.drupal.org/project/search_api",
+            "keywords": [
+                "Actively maintained",
+                "Site search"
+            ],
             "support": {
                 "source": "https://git.drupalcode.org/project/search_api",
                 "issues": "https://www.drupal.org/project/issues/search_api",
@@ -8436,6 +8479,10 @@
             ],
             "description": "A pager which allows an infinite scroll effect for views.",
             "homepage": "https://www.drupal.org/project/views_infinite_scroll",
+            "keywords": [
+                "Content display",
+                "Minimally maintained"
+            ],
             "support": {
                 "source": "https://git.drupalcode.org/project/views_infinite_scroll"
             },
@@ -8813,26 +8860,26 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "4.0.4",
+            "version": "4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "d42c8731f0624ad6bdc8d3e5e9a4524f68801cfa"
+                "reference": "9bef884e12278a7b89b64adbfb9379c021d3c102"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/d42c8731f0624ad6bdc8d3e5e9a4524f68801cfa",
-                "reference": "d42c8731f0624ad6bdc8d3e5e9a4524f68801cfa",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/9bef884e12278a7b89b64adbfb9379c021d3c102",
+                "reference": "9bef884e12278a7b89b64adbfb9379c021d3c102",
                 "shasum": ""
             },
             "require": {
-                "doctrine/lexer": "^2.0 || ^3.0",
+                "doctrine/lexer": "^3.0.3",
                 "php": ">=8.1",
-                "symfony/polyfill-intl-idn": "^1.26"
+                "symfony/polyfill-intl-idn": "^1.43"
             },
             "require-dev": {
-                "phpunit/phpunit": "^10.2",
-                "vimeo/psalm": "^5.12"
+                "phpunit/phpunit": "^10.5.67",
+                "vimeo/psalm": "^5.26.1"
             },
             "suggest": {
                 "ext-intl": "PHP Internationalization Libraries are required to use the SpoofChecking validation"
@@ -8868,7 +8915,7 @@
             ],
             "support": {
                 "issues": "https://github.com/egulias/EmailValidator/issues",
-                "source": "https://github.com/egulias/EmailValidator/tree/4.0.4"
+                "source": "https://github.com/egulias/EmailValidator/tree/4.0.5"
             },
             "funding": [
                 {
@@ -8876,8 +8923,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-06T22:45:56+00:00",
-            "published-time": "2025-03-20T21:39:03+00:00"
+            "time": "2026-11-22T16:52:20+00:00",
+            "published-time": "2026-11-22T22:05:57+00:00"
         },
         {
             "name": "enshrined/svg-sanitize",
@@ -9078,22 +9125,22 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.16.3",
+            "version": "7.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "c88a78082757dd5a0c44191651535259fcb6e605"
+                "reference": "f61ba5ea0a55032a55ddbb72cab7d307c1043654"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/c88a78082757dd5a0c44191651535259fcb6e605",
-                "reference": "c88a78082757dd5a0c44191651535259fcb6e605",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/f61ba5ea0a55032a55ddbb72cab7d307c1043654",
+                "reference": "f61ba5ea0a55032a55ddbb72cab7d307c1043654",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "guzzlehttp/promises": "^2.6",
-                "guzzlehttp/psr7": "^2.13.4",
+                "guzzlehttp/promises": "^2.6.2",
+                "guzzlehttp/psr7": "^2.13.6",
                 "php": "^7.2.5 || ^8.0",
                 "psr/http-client": "^1.0",
                 "symfony/deprecation-contracts": "^2.5 || ^3.0",
@@ -9186,7 +9233,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.16.3"
+                "source": "https://github.com/guzzle/guzzle/tree/7.17.0"
             },
             "funding": [
                 {
@@ -9202,21 +9249,21 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-11-17T16:23:09+00:00",
-            "published-time": "2026-11-17T16:23:41+00:00"
+            "time": "2026-11-22T16:49:11+00:00",
+            "published-time": "2026-11-22T16:50:19+00:00"
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "2.6.0",
+            "version": "2.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "3d88c829bd5f13d13847b39067dbf09a60af2154"
+                "reference": "72e93ed2b1f3d8c09d1460c950bd5726face7ccd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/3d88c829bd5f13d13847b39067dbf09a60af2154",
-                "reference": "3d88c829bd5f13d13847b39067dbf09a60af2154",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/72e93ed2b1f3d8c09d1460c950bd5726face7ccd",
+                "reference": "72e93ed2b1f3d8c09d1460c950bd5726face7ccd",
                 "shasum": ""
             },
             "require": {
@@ -9271,7 +9318,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
-                "source": "https://github.com/guzzle/promises/tree/2.6.0"
+                "source": "https://github.com/guzzle/promises/tree/2.6.2"
             },
             "funding": [
                 {
@@ -9287,21 +9334,21 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-18T12:46:59+00:00",
-            "published-time": "2026-10-18T12:47:39+00:00"
+            "time": "2026-11-21T03:45:23+00:00",
+            "published-time": "2026-11-21T03:46:19+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.13.4",
+            "version": "2.13.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "ad5e3f872690e1151e1171de2963150fc45ea1e3"
+                "reference": "2bd3dccf56e99cdacf74b1ad5e06a08a5a7739f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/ad5e3f872690e1151e1171de2963150fc45ea1e3",
-                "reference": "ad5e3f872690e1151e1171de2963150fc45ea1e3",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/2bd3dccf56e99cdacf74b1ad5e06a08a5a7739f2",
+                "reference": "2bd3dccf56e99cdacf74b1ad5e06a08a5a7739f2",
                 "shasum": ""
             },
             "require": {
@@ -9391,7 +9438,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.13.4"
+                "source": "https://github.com/guzzle/psr7/tree/2.13.6"
             },
             "funding": [
                 {
@@ -9407,8 +9454,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-11-17T16:15:51+00:00",
-            "published-time": "2026-11-17T16:16:24+00:00"
+            "time": "2026-11-21T23:48:40+00:00",
+            "published-time": "2026-11-21T23:49:39+00:00"
         },
         {
             "name": "html2text/html2text",
@@ -10643,16 +10690,16 @@
         },
         {
             "name": "paragonie/sodium_compat",
-            "version": "v2.5.2",
+            "version": "v2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/sodium_compat.git",
-                "reference": "3246b36803c177847e677862fedeb7f937869adb"
+                "reference": "3f1ee77cc481eeebdbd562dc21da33eaf994cc24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/sodium_compat/zipball/3246b36803c177847e677862fedeb7f937869adb",
-                "reference": "3246b36803c177847e677862fedeb7f937869adb",
+                "url": "https://api.github.com/repos/paragonie/sodium_compat/zipball/3f1ee77cc481eeebdbd562dc21da33eaf994cc24",
+                "reference": "3f1ee77cc481eeebdbd562dc21da33eaf994cc24",
                 "shasum": ""
             },
             "require": {
@@ -10733,10 +10780,10 @@
             ],
             "support": {
                 "issues": "https://github.com/paragonie/sodium_compat/issues",
-                "source": "https://github.com/paragonie/sodium_compat/tree/v2.5.2"
+                "source": "https://github.com/paragonie/sodium_compat/tree/v2.6.0"
             },
-            "time": "2026-08-18T23:46:48+00:00",
-            "published-time": "2026-08-18T23:47:50+00:00"
+            "time": "2026-11-20T07:37:02+00:00",
+            "published-time": "2026-11-20T08:05:36+00:00"
         },
         {
             "name": "pear/archive_tar",
@@ -18361,11 +18408,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.3.6",
+            "version": "2.3.7",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/00cedebb76cc82c1592414fa4f616cefdccda16f",
-                "reference": "00cedebb76cc82c1592414fa4f616cefdccda16f",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/90c91c2498849ab8cc4e873864bbf1cb2bf6ea12",
+                "reference": "90c91c2498849ab8cc4e873864bbf1cb2bf6ea12",
                 "shasum": ""
             },
             "require": {
@@ -18421,26 +18468,26 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-11-15T19:58:26+00:00",
-            "published-time": "2026-11-15T19:58:39+00:00"
+            "time": "2026-11-19T10:31:11+00:00",
+            "published-time": "2026-11-19T10:31:27+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
-            "version": "2.0.5",
+            "version": "2.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-deprecation-rules.git",
-                "reference": "67bedd65c24bc72840afc45aed48b1059dd44bec"
+                "reference": "bcb050f0a5c923798ff408926ec5f9b9b59faafc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-deprecation-rules/zipball/67bedd65c24bc72840afc45aed48b1059dd44bec",
-                "reference": "67bedd65c24bc72840afc45aed48b1059dd44bec",
+                "url": "https://api.github.com/repos/phpstan/phpstan-deprecation-rules/zipball/bcb050f0a5c923798ff408926ec5f9b9b59faafc",
+                "reference": "bcb050f0a5c923798ff408926ec5f9b9b59faafc",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.4 || ^8.0",
-                "phpstan/phpstan": "^2.1.39"
+                "phpstan/phpstan": "^2.3.6"
             },
             "require-dev": {
                 "php-parallel-lint/php-parallel-lint": "^1.2",
@@ -18471,10 +18518,10 @@
             ],
             "support": {
                 "issues": "https://github.com/phpstan/phpstan-deprecation-rules/issues",
-                "source": "https://github.com/phpstan/phpstan-deprecation-rules/tree/2.0.5"
+                "source": "https://github.com/phpstan/phpstan-deprecation-rules/tree/2.0.6"
             },
-            "time": "2026-07-22T06:50:43+00:00",
-            "published-time": "2026-07-27T15:18:00+00:00"
+            "time": "2026-11-23T08:55:59+00:00",
+            "published-time": "2026-11-23T08:56:36+00:00"
         },
         {
             "name": "phpstan/phpstan-phpunit",
